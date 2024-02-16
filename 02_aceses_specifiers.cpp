@@ -18,8 +18,8 @@
 
     Definition
     ----------
-    Access specifiers in C++ are keywords used to control the access level/ visibility of 
-    class members.
+    Access specifiers in C++ are keywords used to control the access level/ visibility
+    of class members.
     
     There are three access specifiers in C++:
     1. Public:
@@ -37,8 +37,8 @@
     - Members declared as protected are accessible within the class and its subclasses 
       (derived classes).
     - They are not accessible from outside the class hierarchy.
-    - Protected members are used when you want to allow access to derived classes but not to 
-      the outside world.
+    - Protected members are used when you want to allow access to derived classes but not 
+      to the outside world.
     
     Note: By default, members are private if not specified otherwise.
 */
@@ -49,17 +49,6 @@
 
 class MyCLass 
 {
-
-public:
-
-    // Public members can be accessed from any part of the program
-    int publicVar;
-
-    // Public member function can be accessed from outside the class
-    void publicFunction() 
-    {
-        std::cout << "Public function called. PublicVar: " << publicVar << std::endl;
-    }
 
 private:
 
@@ -81,6 +70,17 @@ protected:
     void protectedFunction() 
     {
         std::cout << "Protected function called. ProtectedVar: " << protectedVar << std::endl;
+    }
+
+public:
+
+    // Public members can be accessed from any part of the program
+    int publicVar;
+
+    // Public member function can be accessed from outside the class
+    void publicFunction() 
+    {
+        std::cout << "Public function called. PublicVar: " << publicVar << std::endl;
     }
 
 };
@@ -143,9 +143,9 @@ void RunSample2()
     account.displayBalance();
 }
 
-int main() 
-{
-    RunSample1();
-    RunSample2();
-    return 0;
-}
+//int main() 
+//{
+//    RunSample1();
+//    RunSample2();
+//    return 0;
+//}
