@@ -1,11 +1,11 @@
 #include <iostream>
 
 /*
-    ===========================================
-    |                                         |
-    |                CLASS                    |
-    |                                         |
-    ===========================================
+	===========================================
+	|                                         |
+	|                 CLASS                   |
+	|                                         |
+    	===========================================
 	
 	Definition
 	----------
@@ -36,7 +36,7 @@
 	Ways of writing class definition
 	--------------------------------
 	- When a function is written within a class it is called 'inline'
-    - Member function declaration outside the class
+	- Member function declaration outside the class
 
 	  Syntax:
 		return-type  class-name :: function-name (argument declaration)
@@ -51,12 +51,12 @@
 
 	Object : It represents a specific instance of that class, with its own unique 
 	         set of data and behavior.
-
+	  
 */
 
-// =======================
-//	  class structure
-// =======================
+// ========================
+//	Class structure
+// ========================
 
 class ClassName 
 {
