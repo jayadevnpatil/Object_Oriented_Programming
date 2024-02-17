@@ -53,7 +53,7 @@
 */
 
 // =======================
-//	  Basic structure
+//     Basic structure
 // =======================
 
 class MyClass
@@ -105,7 +105,7 @@ void RunSample1()
 */
 
 // =======================
-//	  Basic structure
+//     Basic structure
 // =======================
 
 class SampleClass
@@ -140,7 +140,7 @@ void RunSample2()
 
 
 // ==================================================
-//	  Example : A function friendly to two classes
+//    Example : A function friendly to two classes
 // ===================================================
 
 // Forward declaration
