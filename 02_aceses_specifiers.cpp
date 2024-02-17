@@ -1,51 +1,51 @@
 #include<iostream>
 
 /*
-     ===========================================
-     |                                         |
-     |             ACCESS SPECIFIERS           |
-     |                                         |
-     ===========================================
+	===========================================
+	|                                         |
+	|             ACCESS SPECIFIERS           |
+	|                                         |
+	===========================================
  
-    Introduction
-    -------------
-    Encapsulation is one of the fundamental principles of OOPS that involves bundling 
-    data(attributes) and methods(functions) that operate on the data into a single unit 
-    known as a class.
+	Introduction
+    	-------------
+	Encapsulation is one of the fundamental principles of OOPS that involves bundling 
+    	data(attributes) and methods(functions) that operate on the data into a single unit 
+    	known as a class.
 
-    Access specifiers provide encapsulation and data hiding in C++ classes, which is 
-    essential for achieving the principles of Object-Oriented Programming (OOP).
+    	Access specifiers provide encapsulation and data hiding in C++ classes, which is 
+    	essential for achieving the principles of Object-Oriented Programming (OOP).
 
-    Definition
-    ----------
-    Access specifiers in C++ are keywords used to control the access level/ visibility
-    of class members.
+    	Definition
+    	----------
+    	Access specifiers in C++ are keywords used to control the access level/ visibility
+    	of class members.
     
-    There are three access specifiers in C++:
-    1. Public:
-    - Members declared as public are accessible from any part of the program
-    - They can be accessed outside the class through object instances
-    - Public members provide an interface for interacting with the object
+    	There are three access specifiers in C++:
+    	1. Public:
+    	- Members declared as public are accessible from any part of the program
+    	- They can be accessed outside the class through object instances
+    	- Public members provide an interface for interacting with the object
     
-    2. Private:
-    - Members declared as private are accessible only within the class
-    - They are not directly accessible from outside the class or through object instances
-	- Public members (methods) can be used to access private members
-    - Private members are often used to hide the internal implementation details of a class
+    	2. Private:
+    	- Members declared as private are accessible only within the class
+    	- They are not directly accessible from outside the class or through object instances
+    	- Public members (methods) can be used to access private members
+    	- Private members are often used to hide the internal implementation details of a class
     
-    3. Protected:
-    - Members declared as protected are accessible within the class and its subclasses 
-      (derived classes).
-    - They are not accessible from outside the class hierarchy.
-    - Protected members are used when you want to allow access to derived classes but not 
-      to the outside world.
+    	3. Protected:
+    	- Members declared as protected are accessible within the class and its subclasses 
+          (derived classes).
+    	- They are not accessible from outside the class hierarchy.
+    	- Protected members are used when you want to allow access to derived classes but not 
+      	  to the outside world.
     
-    Note: By default, members are private if not specified otherwise.
+    	Note: By default, members are private if not specified otherwise.
 */
 
-// =======================
-//	  Basic structure
-// =======================
+// ========================
+//	Basic structure
+// ========================
 
 class MyCLass 
 {
