@@ -56,11 +56,6 @@
     - Multiple constructors can have the same name but different parameter lists.
     - Provides flexibility in object initialization based on different parameter combinations.
 
-Constructor with member initializer list
-It is a mechanism that allows for the initialization of class member variables directly within the constructor declaration.
-It provides a concise and efficient way to set the initial values of these members before entering the constructor body.
-It improves code readability and performance, especially when dealing with complex types or situations where the order of initialization is crucial.
-
 */
 
 // =======================
