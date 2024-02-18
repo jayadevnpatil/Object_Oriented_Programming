@@ -9,9 +9,9 @@
 
     Introduction
     ------------
-     Overloading in C++ refers to the ability to define wwo or more members having the 
-     same name but different in parameters.There are two main types of overloading in 
-     C++:
+    Overloading in C++ refers to the ability to define wwo or more members having the 
+    same name but different in parameters.There are two main types of overloading in 
+    C++:
 
     1.Function overloading
     2.Operator overloading
@@ -34,8 +34,8 @@
 
     Purpose
     -------
-     It allows developers to create functions that perform similar tasks but operate 
-     on different types or numbers of arguments.
+    It allows developers to create functions that perform similar tasks but operate 
+    on different types or numbers of arguments.
 
      Syntax
      ------
