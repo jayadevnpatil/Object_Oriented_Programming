@@ -19,7 +19,8 @@
     Definition
     ----------
     A constructor has the same name as the class and no return type. It can be
-    used to initialize the data members of an object.
+    used to initialize the data members of an object.The compiler automatically 
+    invokes the constructor when the object is created.
 
     Characteristics
     ---------------
