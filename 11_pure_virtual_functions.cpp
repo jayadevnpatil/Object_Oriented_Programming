@@ -126,16 +126,16 @@ int main() {
 	Key Features
 	------------
 	- Pure Virtual Functions: Abstract classes typically contain one or more 
-							  pure virtual functions, which must be overridden 
-							  by derived classes.
+				  pure virtual functions, which must be overridden 
+                                  by derived classes.
 
 	- No Instantiation: Instances of abstract classes cannot be created. They exist 
 	                    only to define a common interface for derived classes.
 
 	- Interface Definition: Abstract classes define an interface that specifies the 
-			                functionality required by derived classes.
+			        functionality required by derived classes.
 	
 	- Inheritance: Derived classes inherit the interface and structure of the 
 	               abstract class but must provide their implementations for pure 
-		           virtual functions.
+		       virtual functions.
 */
