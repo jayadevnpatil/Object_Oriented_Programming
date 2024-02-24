@@ -62,7 +62,7 @@
 */
 
 // =======================
-//	  Basic structure
+//     Basic structure
 // =======================
 
 class MyClass 
