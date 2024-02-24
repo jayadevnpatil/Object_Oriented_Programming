@@ -9,9 +9,9 @@
 
     Introduction
     ------------
-    Overloading in C++ refers to the ability to define wwo or more members having the 
-    same name but different in parameters.There are two main types of overloading in 
-    C++:
+    Overloading in C++ refers to the ability to define wwo or more members having
+    the same name but different in parameters. There are two main types of 
+    overloading in C++:
 
     1.Function overloading
     2.Operator overloading
@@ -24,13 +24,14 @@
 
     Definition
     ----------
-    Function overloading is a feature in C++ that allows multiple functions with the same 
-    name but different parameters to exist in the same scope. These functions are called 
-    overloaded functions, and the process is known as function overloading.
+    Function overloading is a feature in C++ that allows multiple functions with 
+    the same name but different parameters to exist in the same scope. These 
+    functions are called overloaded functions, and the process is known as function 
+    overloading.
     
-    Overloaded functions are resolved at compile time based on the arguments passed to them.
-    The compiler determines which function to call based on the number and types of arguments 
-    passed to it.
+    Overloaded functions are resolved at compile time based on the arguments passed 
+    to them. The compiler determines which function to call based on the number and 
+    types of arguments passed to it.
 
     Purpose
     -------
@@ -112,5 +113,6 @@ void RunSample()
 
 int main()
 {
+    std::cout << ">> Run Sample" << std::endl;
     RunSample();
 }

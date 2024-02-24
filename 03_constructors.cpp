@@ -9,12 +9,12 @@
  
     Introduction
     -------------
-    Constructors are special member functions in C++ that are automatically called
-    when an object of a class is created. They initialize the object's state and
-    perform any necessary setup operations.
+    Constructors are special member functions in C++ that are automatically 
+    called when an object of a class is created. They initialize the object's 
+    state and perform any necessary setup operations.
 
-    It is called constructor because it construct the values of data members of the 
-    class.
+    It is called constructor because it construct the values of data members of 
+    the class.
 
     Definition
     ----------
@@ -26,8 +26,8 @@
     ---------------
     - They should be declared in the public section
     - They are invoked automatically when the objects are created
-    - They don't have return types, not even void and therefore they cannot return 
-      values
+    - They don't have return types, not even void and therefore they cannot 
+      return values
     - They cannot be inherited, though a derived class can call the base class 
       constructor
     - Like other C++ function, they can have default arguments
@@ -43,11 +43,12 @@
 
     2. Parameterized Constructor:
        - Constructor with parameters.
-       - Allows initialization of member variables with specific values at the time 
-       of creation.
+       - Allows initialization of member variables with specific values at the
+         time of creation.
 
     3. Copy Constructor:
-       - Constructor that initializes an object using another object of the same class.
+       - Constructor that initializes an object using another object of the same 
+         class.
        - Automatically provided by the compiler if not defined.
        - Performs a deep copy of the data members
 
@@ -55,7 +56,8 @@
     -----------------------
     - Like other functions, constructors can be overloaded.
     - Multiple constructors can have the same name but different parameter lists.
-    - Provides flexibility in object initialization based on different parameter combinations.
+    - Provides flexibility in object initialization based on different parameter
+      combinations.
 
 */
 
@@ -76,7 +78,8 @@ public:
     // Parameterized Constructor
     MyClass(int value) 
     {
-        std::cout << "Parameterized Constructor called with value: " << value << std::endl;
+        std::cout << 
+            "Parameterized Constructor called with value: " << value << std::endl;
     }
 
     // Copy Constructor
@@ -173,29 +176,30 @@ void RunSample2()
 
     Introduction
     -------------
-    Member initialization lists in C++ provide a way to initialize class member variables
-    directly within the constructor's definition. They offer several advantages over
-    traditional assignment within the constructor body.
+    Member initialization lists in C++ provide a way to initialize class member 
+    variables directly within the constructor's definition. They offer several 
+    advantages over traditional assignment within the constructor body.
 
     Benefits
     --------
-    1. Efficiency: Member initialization lists allow for direct initialization of
-       member variables, which can be more efficient than assignment within the
-       constructor body.
+    1. Efficiency: Member initialization lists allow for direct initialization 
+       of member variables, which can be more efficient than assignment within 
+       the constructor body.
 
-    2. Avoids Default Initialization: Using initialization lists ensures that member
-       variables are initialized before the constructor body is executed, preventing
-       default initialization.
+    2. Avoids Default Initialization: Using initialization lists ensures that 
+       member variables are initialized before the constructor body is executed, 
+       preventing default initialization.
 
-    3. Initialization of Constants and References: Member initialization lists are
-       necessary for initializing constants and reference member variables, which
-       cannot be assigned values after initialization.
+    3. Initialization of Constants and References: Member initialization lists 
+       are necessary for initializing constants and reference member variables,
+       which cannot be assigned values after initialization.
 
     Syntax
     ------
-    Inside the constructor definition, the member initialization list appears after
-    the constructor's parameter list and before the constructor's body. It consists
-    of a colon followed by a comma-separated list of member variable initializations.
+    Inside the constructor definition, the member initialization list appears 
+    after the constructor's parameter list and before the constructor's body. 
+    It consists of a colon followed by a comma-separated list of member variable 
+    initializations.
 
     Note: The member initialization list syntax initializes each member variable
     using its constructor, if available, or direct initialization syntax.
@@ -227,8 +231,13 @@ void RunSample3()
 
 int main() 
 {
+    std::cout << ">> Run Sample 1" << std::endl;
     RunSample1();
+
+    std::cout << ">> Run Sample 2" << std::endl;
     RunSample2();
+
+    std::cout << ">> Run Sample 3" << std::endl;
     RunSample3();
     return 0;
 }

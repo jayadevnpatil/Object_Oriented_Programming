@@ -10,8 +10,8 @@
 
     Introdunction
     -------------
-    Operator overloading in C++ allows you to redefine the behavior of operators such 
-    as +, -, *, /, etc.
+    Operator overloading in C++ allows you to redefine the behavior of operators
+    such as +, -, *, /, etc.
 
     We can overload all the C++ operators except the following:
     - Class members access operator (. , .*)
@@ -19,9 +19,9 @@
     - Size operator(sizeof)
     - Condition operator (? :)
 
-    When an operator is overloaded, its original meaning is not lost. For example, the 
-    operator +, which has been overloaded to add two vectors, can still be used to add 
-    two integers.
+    When an operator is overloaded, its original meaning is not lost. For example,
+    the operator +, which has been overloaded to add two vectors, can still be 
+    used to add two integers.
 
     The special function called operator function is used to overload the operator, 
     which describes the additional task that the operator has to perform.

@@ -9,17 +9,17 @@
 
     Introduction
     -------------
-    Friend functions in C++ provide access to private and protected members of a class
-    from outside the class scope. They are not members of the class but have access to
-    its private and protected members.
+    Friend functions in C++ provide access to private and protected members of 
+    a class from outside the class scope. They are not members of the class but 
+    have access to its private and protected members.
 
-    This facilitates the sharing of specific functionalities without requiring to be 
-    incorporated as class members
+    This facilitates the sharing of specific functionalities without requiring 
+    to be incorporated as class members
 
     Definition
     ----------
-    A friend function of a class is a function (external) that is not a member of the 
-    class but has access to its private and protected members. 
+    A friend function of a class is a function (external) that is not a member 
+    of the class but has access to its private and protected members. 
     
     Characteristics
     ---------------
@@ -32,24 +32,24 @@
 
     Usage
     -----
-    - Friend functions are often used when an external function/ member functions of 
-      other classes needs access to private or protected members of a class for specific 
-      operations
-    - They can provide flexibility in design by allowing certain functions to interact
-      directly with class internals while maintaining encapsulation.
+    - Friend functions are often used when an external function/ member functions 
+      of other classes needs access to private or protected members of a class for 
+      specific operations
+    - They can provide flexibility in design by allowing certain functions to 
+      interact directly with class internals while maintaining encapsulation.
 
     Declaration
     -----------
-    It is declared using the `friend` keyword inside the class.The friend function is 
-    defined outside of any class using the regular C++ function syntax.The definition 
-    does not use the `friend` keyword or the scope operator `::`
+    It is declared using the `friend` keyword inside the class.The friend function 
+    is defined outside of any class using the regular C++ function syntax.The 
+    definition does not use the `friend` keyword or the scope operator `::`
 
     Syntax
     ------
     friend return-type function-name(parameters);
 
-    Note: The friend function declaration must appear inside the class definition, but
-    the actual function definition can be outside the class.
+    Note: The friend function declaration must appear inside the class definition,
+    but the actual function definition can be outside the class.
 */
 
 // =======================
@@ -94,9 +94,9 @@ void RunSample1()
 
     Definition
     ----------
-    A friend class is a class that is granted access to the private and protected members
-    of another class. It is declared using the 'friend' keyword inside the class whose
-    members need to be accessed.
+    A friend class is a class that is granted access to the private and protected
+    members of another class. It is declared using the 'friend' keyword inside the 
+    class whose members need to be accessed.
 
     Syntax
     ------
@@ -141,7 +141,7 @@ void RunSample2()
 
 // ==================================================
 //    Example : A function friendly to two classes
-// ===================================================
+// ==================================================
 
 // Forward declaration
 class Class2;
@@ -201,8 +201,13 @@ void RunSample3()
 
 int main() 
 {
+    std::cout << ">> Run Sample 1" << std::endl;
     RunSample1();
+
+    std::cout << ">> Run Sample 2" << std::endl;
     RunSample2();
+
+    std::cout << ">> Run Sample 3" << std::endl;
     RunSample3();
     return 0;
 }
