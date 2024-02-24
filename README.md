@@ -20,7 +20,7 @@ Welcome to this comprehensive tutorial on Object-Oriented Programming (OOP) in C
     The [friend functions and friend classes](./05_friend_function.cpp) explains the concept of friend functions in C++ which covers the definition of friend functions, their characteristics, usage, and declaration syntax. It also explains the concept of friend classes their definition and usage.
 
 6.  _**Function Overloading**_ 🔄🏋<br>
-    The [function_overloading](./06_function_overloading.cpp) showcases the ability to define multiple functions with the same name but different parameter lists. It includes examples of function overloading with varying `parameter types, numbers, and return types`, illustrating how overloaded functions are resolved at compile time based on the arguments passed to them.
+    The [function overloading](./06_function_overloading.cpp) showcases the ability to define multiple functions with the same name but different parameter lists. It includes examples of function overloading with varying `parameter types, numbers, and return types`, illustrating how overloaded functions are resolved at compile time based on the arguments passed to them.
 
 7.  _**Operator Overloading**_ ➕🏋🏾‍♀️<br>
     The [operator overloading](./07_operator_overloading.cpp) explains the types of operator overloading, including unary and binary overloading, and the ways to implement it both outside and inside classes/structures using normal functions, friend functions, and member functions. 
@@ -29,7 +29,7 @@ Welcome to this comprehensive tutorial on Object-Oriented Programming (OOP) in C
     The [static overloading](./08_static_members.cpp) presents static data members and static member functions, highlighting their characteristics such as shared existence, initialization, and access without object creation.
 
 9.  _**Pointer to objects**_ 👈<br>
-    The [Pointer to objects](./09_pointer_to_the_objects.cpp) explains the purpose and usage of the `this` pointer for accessing member variables and functions within a class. Additionally, it demonstrates how pointers can be used to indirectly access and manipulate objects, including instances of derived classes, showcasing concepts like polymorphism and dynamic function binding.
+    The [pointer to objects](./09_pointer_to_the_objects.cpp) explains the purpose and usage of the `this` pointer for accessing member variables and functions within a class. Additionally, it demonstrates how pointers can be used to indirectly access and manipulate objects, including instances of derived classes, showcasing concepts like polymorphism and dynamic function binding.
 
 10. _**Polymorphism**_ 🔀🌟<br>
 The [polymorphism](./10_Polymorphism.cpp) provides an overview of polymorphism in C++, explaining its types: compiler-time and runtime. It describes compiler-time polymorphism achieved through function and operator overloading, and runtime polymorphism through function and member overriding. The concept of virtual functions is introduced, showcasing how they enable runtime polymorphism by allowing derived classes to provide their implementations.
