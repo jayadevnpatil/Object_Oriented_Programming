@@ -3,7 +3,7 @@ Welcome to this comprehensive tutorial on Object-Oriented Programming (OOP) in C
 
 ## 📚 Contents<br>
 
-1. _**Classes**_<br>
+1. _**Classes**_ 👨‍🏫<br>
     The [class](./01_class.cpp) covers the definition of a class, specifying a class, access specifiers, ways of writing class      definitions, and the difference between a class and an object.
 
 2.  _**Access Specifiers**_ 🔒<br>
@@ -26,6 +26,18 @@ Welcome to this comprehensive tutorial on Object-Oriented Programming (OOP) in C
     The [operator overloading](./07_operator_overloading.cpp) explains the types of operator overloading, including unary and binary overloading, and the ways to implement it both outside and inside classes/structures using normal functions, friend functions, and member functions. 
 
 8.  _**Static Members**_ ⚡<br>
-    The [static overloading](./08_static_members.cpp) presents static data members and static member functions, highlighting their characteristics such as shared existence, initialization, and access without object creation. 
+    The [static overloading](./08_static_members.cpp) presents static data members and static member functions, highlighting their characteristics such as shared existence, initialization, and access without object creation.
+
+9.  _**Pointer to objects**_ 👈<br>
+    The [Pointer to objects](./09_pointer_to_the_objects.cpp) explains the purpose and usage of the `this` pointer for accessing member variables and functions within a class. Additionally, it demonstrates how pointers can be used to indirectly access and manipulate objects, including instances of derived classes, showcasing concepts like polymorphism and dynamic function binding.
+
+10. _**Polymorphism**_ 🔀🌟<br>
+The [polymorphism](./10_Polymorphism.cpp) provides an overview of polymorphism in C++, explaining its types: compiler-time and runtime. It describes compiler-time polymorphism achieved through function and operator overloading, and runtime polymorphism through function and member overriding. The concept of virtual functions is introduced, showcasing how they enable runtime polymorphism by allowing derived classes to provide their implementations.
+
+11. _**Pure Virtual Functions**_ 🕶️<br>
+The [pure virtual functions](./11_pure_virtual_functions.cpp) discusses pure virtual functions and abstract classes in C++. It explains the concept, syntax, characteristics, and usage of pure virtual functions, along with examples demonstrating their implementation in abstract base classes and concrete derived classes.
+
+12. _**Exception Handling**_ 🧐<br>
+    The [exception handling](./12_exception_handling.cpp) provides an introduction to exception handling in C++, explaining its purpose and mechanism. It outlines the three essential blocks: try, throw, and catch, and describes how they work together to handle runtime errors gracefully. 
 
 ## 🎓 Happy learning!
